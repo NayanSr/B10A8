@@ -1,0 +1,208 @@
+[
+      {
+        "product_id": 1,
+        "product_title": "Dell XPS 13",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Dell-XPS-13-Plus-BD-Price-1.jpg",
+        "category": "Laptop",
+        "price": 1199,
+        "description": "Dell XPS 13 with Intel i7 processor, 16GB RAM, and 512GB SSD.",
+        "specification": [
+          "Processor: Intel i7",
+          "RAM: 16GB",
+          "Storage: 512GB SSD",
+          "Display: 13.3-inch FHD+",
+          "Battery Life: Up to 14 hours"
+        ],
+        "availability": true,
+        "rating": 4.4
+      },
+      {
+        "product_id": 2,
+        "product_title": "HP Spectre x360",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/HP-Spectre-16-F1013DX-in-BD.jpg",
+        "category": "Laptop",
+        "price": 1399,
+        "description": "HP Spectre x360 2-in-1 laptop with Intel i7, 16GB RAM, and 1TB SSD.",
+        "specification": [
+          "Processor: Intel i7",
+          "RAM: 16GB",
+          "Storage: 1TB SSD",
+          "Display: 13.3-inch 4K UHD",
+          "Battery Life: Up to 12 hours"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 3,
+        "product_title": "Microsoft Surface Laptop 4",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/Surface-Laptop-4-Price-in-BD.jpg",
+        "category": "Laptop",
+        "price": 999,
+        "description": "Microsoft Surface Laptop 4 with AMD Ryzen 5, 8GB RAM, and 256GB SSD.",
+        "specification": [
+          "Processor: AMD Ryzen 5",
+          "RAM: 8GB",
+          "Storage: 256GB SSD",
+          "Display: 13.5-inch PixelSense",
+          "Battery Life: Up to 19 hours"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 4,
+        "product_title": "Acer Aspire 5",
+        "product_image": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/aspire-5-5m-a515-58gm/aspire-5-5m-a515-58gm-500x500.webp",
+        "category": "Laptop",
+        "price": 549,
+        "description": "Acer Aspire 5 with Intel i5 processor, 8GB RAM, and 512GB SSD.",
+        "specification": [
+          "Processor: Intel i5",
+          "RAM: 8GB",
+          "Storage: 512GB SSD",
+          "Display: 15.6-inch FHD",
+          "Battery Life: Up to 10 hours"
+        ],
+        "availability": true,
+        "rating": 4.2
+      },
+      {
+        "product_id": 5,
+        "product_title": "Lenovo ThinkPad X1 Carbon",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/ThinkPad-X1-Carbon-in-BD-5.jpg",
+        "category": "Laptop",
+        "price": 1499,
+        "description": "Lenovo ThinkPad X1 Carbon with Intel i7, 16GB RAM, and 1TB SSD.",
+        "specification": [
+          "Processor: Intel i7",
+          "RAM: 16GB",
+          "Storage: 1TB SSD",
+          "Display: 14-inch FHD",
+          "Battery Life: Up to 18 hours"
+        ],
+        "availability": false,
+        "rating": 4.6
+      },
+      {
+        "product_id": 6,
+        "product_title": "Asus ROG Zephyrus G14",
+        "product_image": "https://computermania-bd.b-cdn.net/wp-content/uploads/ROG-Zephyrus-G14-2-1.jpg",
+        "category": "Laptop",
+        "price": 1599,
+        "description": "Asus ROG Zephyrus G14 gaming laptop with AMD Ryzen 9, 16GB RAM, and 1TB SSD.",
+        "specification": [
+          "Processor: AMD Ryzen 9",
+          "RAM: 16GB",
+          "Storage: 1TB SSD",
+          "Display: 14-inch QHD",
+          "Battery Life: Up to 11 hours"
+        ],
+        "availability": true,
+        "rating": 4.8
+      },
+      {
+        "product_id": 7,
+        "product_title": "iPhone 13",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvgwqs-rwDYOH3yT5CSj_euhGprQ39XwAkA&s",
+        "category": "Phone",
+        "price": 799,
+        "description": "Apple iPhone 13 with A15 Bionic chip, 4GB RAM, and 128GB storage.",
+        "specification": [
+          "Processor: A15 Bionic",
+          "RAM: 4GB",
+          "Storage: 128GB",
+          "Display: 6.1-inch Super Retina XDR",
+          "Battery Life: Up to 19 hours"
+        ],
+        "availability": true,
+        "rating": 4.7
+      },
+      {
+        "product_id": 8,
+        "product_title": "Samsung Galaxy S21",
+        "product_image": "https://brotherselectronicsbd.com/image/cache/catalog/demo/product/Samsung/Smartphone/S21/s21-800x800.jpg",
+        "category": "Phone",
+        "price": 699,
+        "description": "Samsung Galaxy S21 with Exynos 2100, 8GB RAM, and 128GB storage.",
+        "specification": [
+          "Processor: Exynos 2100",
+          "RAM: 8GB",
+          "Storage: 128GB",
+          "Display: 6.2-inch Dynamic AMOLED 2X",
+          "Battery Life: Up to 18 hours"
+        ],
+        "availability": false,
+        "rating": 4.6
+      },
+      {
+        "product_id": 9,
+        "product_title": "Sony WH-1000XM4",
+        "product_image": "https://smartbd.com/wp-content/webp-express/webp-images/uploads/2023/05/hb1.2.jpg.webp",
+        "category": "Accessories",
+        "price": 349,
+        "description": "Sony WH-1000XM4 Noise Canceling Over-Ear Headphones with 30-hour battery life.",
+        "specification": [
+          "Type: Over-Ear Headphones",
+          "Noise Cancellation: Yes",
+          "Battery Life: 30 hours",
+          "Wireless: Yes",
+          "Bluetooth: Yes"
+        ],
+        "availability": true,
+        "rating": 4.5
+      },
+      {
+        "product_id": 10,
+        "product_title": "Amazon Echo Dot (4th Gen)",
+        "product_image": "https://www.techlandbd.com/image/catalog/Speaker/Amazon/Echo%20Dot/4th%20Gen/Amazon%20Echo%20Dot%204th%20Gen-500x500-04.jpg",
+        "category": "Accessories",
+        "price": 59,
+        "description": "Amazon Echo Dot smart speaker with Alexa voice control.",
+        "specification": [
+          "Smart Assistant: Alexa",
+          "Connectivity: Bluetooth, Wi-Fi",
+          "Audio: 1.6-inch speaker",
+          "LED Display: Yes",
+          "Voice Control: Yes"
+        ],
+        "availability": true,
+        "rating": 4.6
+      },
+      {
+        "product_id": 11,
+        "product_title": "Canon EOS R5",
+        "product_image": "https://i1.adis.ws/i/canon/eos-r5_front_rf24-105mmf4lisusm_square_32c26ad194234d42b3cd9e582a21c99b?$prod-gallery-1by1-jpg$",
+        "category": "Accessories",
+        "price": 3899,
+        "description": "Canon EOS R5 full-frame mirrorless camera with 45 MP resolution and 8K video.",
+        "specification": [
+          "Resolution: 45 MP",
+          "Video: 8K",
+          "ISO Range: 100-51200",
+          "Screen: 3.2-inch LCD",
+          "Connectivity: Wi-Fi, Bluetooth"
+        ],
+        "availability": false,
+        "rating": 4.9
+      },
+      {
+        "product_id": 12,
+        "product_title": "MacBook Air M1",
+        "product_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ns5UbguzHA8ML0wwvYAwJRT-rJOk7AXeGQ&s",
+        "category": "MacBook",
+        "price": 999,
+        "description": "Apple MacBook Air with M1 chip, 8GB RAM, and 256GB SSD.",
+        "specification": [
+          "Processor: M1",
+          "RAM: 8GB",
+          "Storage: 256GB SSD",
+          "Display: 13.3-inch Retina",
+          "Battery Life: Up to 18 hours"
+        ],
+        "availability": true,
+        "rating": 4.8
+      }
+    ]
+  
+  
