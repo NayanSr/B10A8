@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Banner from "./Banner";
 
 const NavBar = () => {
   return (
@@ -65,9 +64,9 @@ const NavBar = () => {
           <a className="btn">Button</a>
         </div>
       </div>
-     <div className="absolute w-1/2 left-1/4 top-2/3 p-3 h-64 bg-purple-300 rounded-2xl">
+    {/*  <div className="absolute w-1/2 left-1/4 top-2/3 p-3 h-64 bg-purple-300 rounded-2xl">
         <Banner/>
-     </div>
+     </div> */}
     </div>
   );
 };

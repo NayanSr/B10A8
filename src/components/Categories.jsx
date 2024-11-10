@@ -6,8 +6,8 @@ const Categories = ({ categories }) => {
     <div>
       <Link>All Products</Link>
       {categories.map((category) => (
-        <div key={category.id}>
-          <Link to={`/products/${category.category}`}>{category.category}</Link>
+        <div className="mt-4" key={category.id}>
+          <Link  to={`/products/${category.category}`}>{category.category}</Link>
         </div>
       ))}
     </div>

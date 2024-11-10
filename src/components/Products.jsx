@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import Product from "./Product";
 
 const Products = () => {  const [products, setProducts] = useState([]);
   const param = useParams();
@@ -23,16 +24,20 @@ const Products = () => {  const [products, setProducts] = useState([]);
   return (
     <div className=" bg-teal-200 p-4">
       <h2>Products :</h2>
-      {products.length ? (
+<div className="grid grid-cols-3 gap-4 w-full">
+{products.length ? (
         <>
           {" "}
           {products.map((product) => (
-            <h2 key={product.product_id}>{product.price}</h2>
+           <Product product={product} key={product.product_id}/>
           ))}
         </>
       ) : (
         <h2 className="p-6">No Products for: <span className= "p-2 rounded-full text-red-600 bg-teal-300">{dynamicId}</span>  </h2>
       )}
+</div>
+
+      
     </div>
   );
 };
