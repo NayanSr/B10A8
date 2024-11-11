@@ -3,6 +3,7 @@ import MainLayout from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import Products from "../components/Products";
 import ProductDetails from "../components/ProductDetails";
+import Dashboard from "../pages/Dashboard";
 
 const routes = createBrowserRouter([
   {
@@ -16,9 +17,10 @@ const routes = createBrowserRouter([
           
         ]
       },
-    // {path:'/products', element: <p>HOME</p>},
-    {path:'/productDetail/:id', element:<ProductDetails/>},
-    {path:'/dashboard', element: <p>DASHbOARD</p>},
+      {path:'productDetail/:id', element: <ProductDetails/>, loader: () => fetch('/products.json')},
+      {path:'/dashboard', element: <Dashboard/>},
+  
+    
     {path:'/aboutus', element: <p>About Us</p>},
   
 

@@ -1,13 +1,15 @@
 import { Outlet, useLoaderData } from "react-router-dom";
 import Categories from "../components/Categories";
 import Banner from "../components/Banner";
+import NavBarText from "../components/NavBarText";
 
 const Home = () => {
   const categories = useLoaderData();
 
   return (
     <div>
-      <div className="absolute w-1/2 top-1/3 left-1/4 p-3 h-64 bg-purple-300 rounded-2xl">
+      <NavBarText/>
+      <div className=" absolute left-1/4 top-3/4 w-1/2  p-3 h-64 bg-purple-300 rounded-2xl">
         <Banner />
       </div>
       <h2 className="text-2xl font-semibold text-center">

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className=" relative bg-purple-800 text-white flex flex-col h-96 rounded-2xl mb-40">
+    <div className=" bg-purple-800 text-white flex flex-col rounded-t-2xl ">
       <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
@@ -64,9 +64,7 @@ const NavBar = () => {
           <a className="btn">Button</a>
         </div>
       </div>
-    {/*  <div className="absolute w-1/2 left-1/4 top-2/3 p-3 h-64 bg-purple-300 rounded-2xl">
-        <Banner/>
-     </div> */}
+  
     </div>
   );
 };
