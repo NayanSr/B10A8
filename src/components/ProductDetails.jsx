@@ -5,11 +5,14 @@ const ProductDetails = () => {
   const products = useLoaderData();
   const productId = useParams();
   const targetProduct = products.find((pd) => pd.product_id == productId.id);
-  const handleSaveToCart=(dataKey,id)=>{
-    console.log(dataKey, id);
-    addToLs(id, dataKey)
-  }
 
+  const handleSaveToCart = (dataKey, id) => {
+    addToLs(id, dataKey);
+  };
+
+  const handleSaveToFavourit = (dataKey, id) => {
+    addToLs(id, dataKey);
+  };
 
   // console.log(productId.id, products, targetProduct);
   return (
@@ -48,8 +51,23 @@ const ProductDetails = () => {
             ))}
           </ol>
           <div className=" flex items-center mt-4">
-            <button onClick={()=>handleSaveToCart('cart', targetProduct.product_id)} className="mr-4 bg-purple-800 px-4 rounded-full">Add to Cart</button>
-            <button><img className="w-4" src="https://img.icons8.com/?size=100&id=87&format=png&color=000000" alt="" /></button>
+            <button
+              onClick={() => handleSaveToCart("cart", targetProduct.product_id)}
+              className="mr-4 bg-purple-800 px-4 rounded-full"
+            >
+              Add to Cart
+            </button>
+            <button
+              onClick={() =>
+                handleSaveToFavourit("favourit", targetProduct.product_id)
+              }
+            >
+              <img
+                className="w-4"
+                src="https://img.icons8.com/?size=100&id=87&format=png&color=000000"
+                alt=""
+              />
+            </button>
           </div>
         </div>
       </div>
