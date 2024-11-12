@@ -46,22 +46,23 @@ const NavBar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
+            <li className="text-lg">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="text-lg">
               <Link to="/statistics">Statistics</Link>
             </li>
-            <li>
+            <li className="text-lg">
               <Link to="/dashboard">Dashboard</Link>
             </li>
-            <li>
+            <li className="text-lg">
               <Link to="/aboutus">About Us</Link>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <img className="w-12 h-12 mr-4  p-2 rounded-full" src="https://img.icons8.com/?size=100&id=BBhHIwJINbBl&format=png&color=000000" alt="" />
+          <img className="w-12 h-12 mr-4  p-2 rounded-full" src="https://img.icons8.com/?size=100&id=86721&format=png&color=000000" alt="" />
         </div>
       </div>
   

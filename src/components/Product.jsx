@@ -21,12 +21,12 @@ const Product = ({product}) => {
             alt={product.name}
             className="rounded-xl w-52" />
         </figure>
-        <div className="card-body items-center text-center">
+        <div className="card-body">
           <h2 className="card-title">{product.product_title}</h2>
           <p>{product.description}</p>
-          <p>{product.price}</p>
+          <p className="font-semibold">Price: {product.price}</p>
           <div className="card-actions">
-            <button onClick={()=>handleProductClick(product.product_id)}>View Details</button>
+            <button className=" bg-white py-1 px-3 font-semibold border-2 border-teal-950 rounded-2xl" onClick={()=>handleProductClick(product.product_id)}>View Details</button>
           </div>
         </div>
       </div>

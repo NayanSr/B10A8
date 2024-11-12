@@ -1,13 +1,15 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Categories = ({ categories }) => {
   return (
     <div>
-      <Link>All Products</Link>
+      <Link className="font-semibold">All Products</Link>
       {categories.map((category) => (
         <div className="mt-4" key={category.id}>
-          <Link  to={`/products/${category.category}`}>{category.category}</Link>
+          <NavLink className={({ isActive }) =>
+            ` font-semibold ${isActive ? 'bg-slate-400 p-2 rounded-3xl' : ''}`
+          }  to={`/products/${category.category}`}>{category.category}</NavLink>
         </div>
       ))}
     </div>

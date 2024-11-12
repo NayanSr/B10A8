@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import Product from "./Product";
 
-const Products = () => {  const [products, setProducts] = useState([]);
+const Products = () => {  
+  const [products, setProducts] = useState([]);
   const param = useParams();
   const dynamicId = param.id;
   const allProducts = useLoaderData();
+
 //   setProducts(allProducts);
   useEffect(() => {
     if (dynamicId) {
@@ -18,12 +20,19 @@ const Products = () => {  const [products, setProducts] = useState([]);
     }
   }, [dynamicId]);
 
+  const handleSorted= () =>{
+    const sorted = products.sort((a,b)=> b.price-a.price);
+    setProducts(sorted);
+  }
 
 //   console.log(dynamicId);
 
   return (
     <div className=" bg-teal-200 p-4">
-      <h2>Products :</h2>
+     <div className="flex justify-between items-center p-4">
+     <h2 className="text-2xl">Products :</h2>
+     <button onClick={handleSorted} className=" bg-slate-500 px-4 py-2 rounded-2xl mr-8">Short by Price</button>
+     </div>
 <div className="grid grid-cols-3 gap-4 w-full">
 {products.length ? (
         <>

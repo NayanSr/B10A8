@@ -108,7 +108,7 @@ const Dashboard = () => {
       </div>
 
       <div className="w-1/2 mx-auto bg-gray-100">
-        {actived ? <p>Cart Products:</p> : <h2>Wishlist Products:</h2>}
+        {actived ? <p className="text-xl font-semibold">Cart Products:</p> : <h2 className="text-xl font-semibold">Wishlist Products:</h2>}
 
         {matchedProducts.map((pd) => (
           actived? <DashboardCart key={pd.product_id} pd={pd} /> : <DashboardFavourit key={pd.product_id} pd={pd}/>

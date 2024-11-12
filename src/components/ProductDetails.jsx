@@ -25,7 +25,7 @@ const ProductDetails = () => {
           it all!
         </p>
       </div>
-      <div className="absolute left-1/4 top-1/2  w-1/2 mx-auto bg-gray-500 flex gap-4 mt-2 p-4 rounded-2xl">
+      <div className="absolute left-1/4 top-1/2  w-1/2 mx-auto bg-slate-300 flex gap-4 mt-2 p-4 rounded-2xl">
         <img
           className="w-[250px] h-[280px] my-auto rounded-2xl"
           src={targetProduct.product_image}
